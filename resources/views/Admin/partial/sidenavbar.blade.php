@@ -5,7 +5,7 @@
   <div class="brand-logo">
     <a class="d-none d-md-flex align-items-center gap-2" href="../index.html">
       <img src="{{ asset('storage/admin/assets/images/brand/logo/logo-icon.svg') }}" alt="" />
-      <span class="fw-bold fs-4  site-logo-text">Dasher</span>
+      <span class="fw-bold fs-4  site-logo-text">C.J</span>
     </a>
   </div>
   <ul class="navbar-nav flex-column  ">
@@ -51,7 +51,7 @@
 
 
         <li class="nav-item">
-          <a class="nav-link" href="../pages/error/maintenance.html">Maintenance</a>
+          <a class="nav-link" href="{{ route('Admin.pages.zones.index') }}">Manage Zones</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="../pages/error/404-error.html">404 Error</a>
