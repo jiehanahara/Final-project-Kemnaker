@@ -20,7 +20,7 @@
 							<li class="has-children">
 								<a href="index.html" class="nav-link">Home</a>
 								<ul class="dropdown">
-									<li><a href="index_map.html" class="nav-link">Home Map</a></li>
+									<li><a href="{{ route('admin.index') }}" class="nav-link">Admin Dashboard</a></li>
 									<li><a href="index_parallax.html" class="nav-link">Home Parallax</a></li>
 									<li><a href="index_slideshow.html" class="nav-link">Home Slider</a></li>
 									<li><a href="index_video.html" class="nav-link">Home video</a></li>
